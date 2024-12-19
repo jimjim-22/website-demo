@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#language">Coding Language</a></li>
+                <li><a href="#favoriteanime">Favorite Anime</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT/Geek</p>
+            <h1>Hi, I'm <span>Kevin James</span><br>Ponce</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore fugiat voluptatem itaque deserunt veniam? Dolorum animi pariatur at dolores dolore a odio doloremque? Doloribus vel eveniet qui facilis porro provident.</p>    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Fav Band</p>
+                            <p class="tab-links" onclick="opentab('Education')">Fav Movie</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Breakfast</span><br>Topsilog</li>
+                                <li><span>Main course </span><br>Sisig</li>
+                                <li><span>Dessert</span><br>Letche flan</li>
+                            </ul>
+                        </div>
+                        <!----------  band --------->
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Bandang Lapis</span><br>Nang dumating Ka</li>
+                                <li><span>Juan Paasa</span><br>Summoning Eru</li>
+                                <li><span>Planetshakes</span><br>Turn IT up</li>
+                            </ul>
+                        </div>
+                        <!----------  movies --------->
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Anime</span><br>Naruto</li>
+                                <li><span>Disney</span><br>Peddiepie</li>
+                                <li><span>Hollywood</span><br>Avengers</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Coding Language --------->
+    <div id="language">
+        <div class="container">
+            <h1 class="sub-title"> Learned Coding Language</h1>
+            <div class="language-list">
+                <div>
+                    <h2>Java</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quasi quos nostrum nobis officia mollitia quas maxime? Unde sit porro, dicta neque repellendus in quos eaque, doloremque qui quia error.</p>
+                    
+                </div>
+                <div>
+                    <h2>JavaScript</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium necessitatibus asperiores laboriosam quod, eum consequatur, nostrum voluptate nam dolorem quisquam rem quam totam, illo cupiditate dignissimos voluptates? Dolores, perferendis voluptatibus!</p>
+                    
+                </div>
+                <div>
+                    <h2>HTML + CSS</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur minima, molestiae facilis animi quia dolorum harum ullam explicabo laborum temporibus porro eaque dignissimos sapiente libero adipisci dolore expedita sunt eveniet?</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Favorite Anime --------->
+        <div id="favoriteanime">
+            <div class="fcontainer">
+                <h1 class="sub-title"> Favorite Anime</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/poster1.png">
+                        <div class="layer">
+                            <h2>Naruto</h2>
+                            <p>Naruto is a Japanese manga series and anime television show about a young ninja named Naruto Uzumaki who dreams of becoming the leader of his village, the Hokage </p>    
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster2.jpg">
+                        <div class="layer">
+                        <h2>Demon Slayer</h2>
+                        <p>Demon Slayer: Kimetsu no Yaiba is a manga series and TV show about a boy who trains to become a demon slayer to avenge his family and cure his sister who has been turned into a demon</p>
+                    </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster3.jpg">
+                        <div class="layer">                       
+                        <h2>Dragon Ball</h2>
+                        <p>Dragon Ball is a Japanese media franchise created by Akira Toriyama in 1984 that features a young warrior named Son Goku who trains in martial arts and searches for the Dragon Balls</p>        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>Sample@gmail.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>0978493403</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>SampleFaceBookname</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 KevinJamesPonce. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
